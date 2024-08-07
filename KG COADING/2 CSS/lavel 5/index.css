@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    padding: 15px;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 13%;
+    padding: 10px 0px;
+}
+#header{
+    height: 50px;
+    background-color: aquamarine;
+}
+#first_div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+    border: 5px;
+    border-color: red;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 5px;
+    display: inline-block;
+}
+#container{
+    border: 2px dotted red;
+    margin: 5px;
+}
+#cont2{
+    z-index: 2;
+    left: 30px;
+    top: 300px;
+    position: absolute;
+}
+#cont4{
+    position: fixed;
+    right: 20px;
+}
+footer{
+font-size: 30px;
+font-weight: bold;
+color: blueviolet;
+text-align: center;
+text-transform: uppercase;
+bottom: 0px;
+background-color: aquamarine;
+position: fixed;
+}

@@ -1,0 +1,25 @@
+#container{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(179, 179, 149);
+   
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    left: 4s;
+}
+
+#box{
+    background-color: aqua;
+    border-radius: 15px;
+    height: 100%;
+    animation: animate 3s;
+}
+
+@keyframes animate {
+    0% {width:0%;}
+    90% {width:90%;}
+    95% {width:50%;}
+    98% {width:70%;}
+    100% {width:100%;}
+}
